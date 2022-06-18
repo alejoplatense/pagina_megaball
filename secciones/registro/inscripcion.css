@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+:root {
+    --white: #fff;
+    --red: #BF0411;
+    --black: #000000;
+    --gray: #f06a6a;
+    --yellow: rgb(247, 187, 25);
+    --orange: rgb(252, 136, 59);
+}
+body {
+    background-image: url(img/logo_megaball_fondo-01.jpg);
+}
+.grupo {
+    max-width: 600px;
+    height: 520px;
+    margin: 0 auto;
+    background-color: var(--red);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+.navegador {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton {
+    background-color: var(--gray);
+    border: none;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0.6rem;
+    padding: 0.8rem 2rem 0.6rem;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 0px;
+}
+.boton1 {
+    background-color: var(--orange);
+}
+.boton2 {
+    background-color: var(--black);
+}
+.boton1 a {
+    color: var(--white);
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.boton2 a {
+    color: var(--white);
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.boton1:hover {
+    background-color: var(--orange);
+    transition: 0.5s;
+}
+.boton2:hover {
+    background-color: var(--orange);
+    transition: 0.5s;
+}
+h2 {
+    font-size: 2rem;
+    color: var(--white);
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 0.7rem;
+}
+.textos {
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+}
+p {
+    font-size: 1.1rem;
+    color: var(--white);
+    font-weight: 300;
+}
+.formulario {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0.7rem;
+}
+.contact-form {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.input-espacio {
+    color: var(--white);
+}
+.input-espacio input {
+    margin: 10px 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid var(--white);
+    padding: 10px;
+    color: var(--white);
+    width: 95%;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.inicio {
+   display: flex;
+   justify-content: center;
+}
+
