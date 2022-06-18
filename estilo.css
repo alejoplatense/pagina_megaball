@@ -507,7 +507,7 @@ li .extras:active, li .extras:hover {
     .estilo_texto_hero {
         color: var(--white);
         text-transform: uppercase;
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 500;
         padding: 1rem 0.5rem;
         letter-spacing: 2px;
